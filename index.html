@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="8 game">
+    <meta name="author" content="sl4y3r">
+    <title>8 game</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<audio id="sound" href="Perc.ogg" type="audio/ogg">
+
+<source src="Perc.ogg" type="audio/ogg">
+    
+</audio>
+
+
+
+<h1 id="clock">time: 0</h1>
+<!--<h1 id="move">move: 0</h1>-->
+    
+    <div id="puzzle_container"  onmouseover="suono()">
+        <div class="puzzle_block">1</div>
+        <div class="puzzle_block">2</div>
+        <div class="puzzle_block">3</div>
+        <div class="puzzle_block">4</div>
+        <div class="puzzle_block">5</div>
+        <div class="puzzle_block">6</div>
+        <div class="puzzle_block">7</div>
+        <div class="puzzle_block">8</div>
+    </div>
+    <div id="difficulty_container">
+        <div class="difficulty_button active" onclick="start()">PLAY</div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
